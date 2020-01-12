@@ -23,6 +23,8 @@
     </h1>
 <p>
     Licznik odwiedzin: <%= ++visitCounter %>
+    <%-- komentarz JSP --%>
+    <!-- komentarz HTML-->
 </p>
 </body>
 </html>
