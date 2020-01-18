@@ -21,7 +21,7 @@
 </p>
 <p>
     <jsp:getProperty name="calculator" property="n"/>
-    <sup>2</sup> wynosi:
+     c <sup>2</sup> wynosi:
     <%
         int result = calculator.square();
         out.print(result);
