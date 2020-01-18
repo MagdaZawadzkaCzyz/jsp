@@ -20,6 +20,7 @@ import java.io.PrintWriter;
 public class HelloWorldServlet extends HttpServlet {
     private String userId, localization;
 
+
     @Override
     public void init(ServletConfig config) {
         userId = config.getInitParameter("userId");
@@ -31,5 +32,6 @@ public class HelloWorldServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println("UserId: " + userId);
         writer.print("Localization: " + localization);
+        response.sendRedirect("index.jsp");
     }
 }
