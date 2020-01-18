@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Obsługa cookie</title>
+    <title>Obsługa sesji</title>
 </head>
 <body>
 <h2>Obsługa sesji</h2>
